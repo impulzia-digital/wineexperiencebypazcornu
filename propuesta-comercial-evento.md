@@ -5,7 +5,7 @@
 **Emisor:** Impulzia  
 **Proyecto:** Wine Experience by Paz Cornu  
 **Fecha:** 3 de abril de 2026  
-**Modalidad:** implementacion inmediata con facturacion posterior
+**Modalidad:** implementacion inmediata con 50% al iniciar y 50% al terminar la campana
 
 ## 1. Resumen ejecutivo
 
@@ -147,6 +147,8 @@ De cara al cliente, conviene mostrar el proyecto como un solo fee de servicio y 
 
 - **Implementacion y gestion integral del lanzamiento:** ARS 955.000
 
+En la modalidad de cobro, conviene presentar un esquema de 50% al iniciar y 50% al terminar la campana. Esa modalidad es coherente con el tipo de servicio: requiere una activacion inmediata con carga operativa fuerte al comienzo y acompanamiento hasta el cierre de la ventana comercial.
+
 Si hace falta justificar el valor, el desglose interno anterior permite defenderlo sin exponer una logica de cobro desordenada.
 
 ### 8.4. Pauta publicitaria
@@ -169,7 +171,7 @@ La pauta puede mantenerse como presupuesto operativo separado, sin mezclarla con
 ## 9. Condiciones comerciales
 
 - la implementacion comienza de inmediato una vez confirmada la propuesta,
-- la facturacion se realiza 100% posterior a la implementacion y lanzamiento,
+- la facturacion se realiza 50% al iniciar y 50% al terminar la campana,
 - la pauta publicitaria se paga aparte,
 - no se incluyen comisiones de Mercado Pago,
 - la medicion robusta de ventas cerradas queda sujeta al acceso operativo a Mercado Pago,
@@ -190,6 +192,7 @@ Esta propuesta no incluye, salvo acuerdo adicional:
 La oportunidad comercial es clara: con un aforo estimado de 100 personas y tickets de $70.000 y $100.000, el proyecto tiene margen suficiente para justificar una implementacion rapida, medicion seria y activacion paga bien ejecutada.
 
 La prioridad ahora no es discutir meses de arquitectura. Es salir a vender hoy con un sistema ordenado, medible y comercialmente defendible.
+
 
 
 
