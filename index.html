@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -24,13 +24,26 @@
             class="brand-logo"
             src="assets/images/impulzia_logo_exact.svg"
             alt="Impulzia"
+            decoding="async"
           />
           <span class="brand-text">
             <small>Propuesta comercial</small>
           </span>
         </a>
 
-        <nav class="topbar-nav" aria-label="Navegacion principal">
+        <button
+          class="topbar-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="Abrir navegacion principal"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="topbar-nav" id="primary-navigation" aria-label="Navegacion principal">
           <a href="#resumen">Resumen</a>
           <a href="#alcance">Alcance</a>
           <a href="#inversion">Inversion</a>
@@ -72,6 +85,8 @@
                 <img
                   src="assets/images/wine-hero-paz.png"
                   alt="Invitados caminando entre viñedos al atardecer en una escena editorial de lujo"
+                  decoding="async"
+                  fetchpriority="high"
                 />
               </figure>
               <span class="spotlight-tag">Lectura Impulzia</span>
@@ -150,6 +165,8 @@
               <img
                 src="assets/images/wine-atmosphere-paz.png"
                 alt="Encuentro premium al atardecer en un viñedo con invitados vestidos de manera elegante"
+                loading="lazy"
+                decoding="async"
               />
               <figcaption>Direccion visual mas cercana al universo Paz Cornu: viñedo, sunset y lujo social editorial.</figcaption>
             </figure>
@@ -158,6 +175,8 @@
               <img
                 src="assets/images/wine-detail.png"
                 alt="Vino siendo servido en una copa de cristal en close-up editorial"
+                loading="lazy"
+                decoding="async"
               />
               <figcaption>Detalle de producto y atmosfera para reforzar valor percibido.</figcaption>
             </figure>
@@ -363,6 +382,8 @@
               <img
                 src="assets/images/wine-venue.png"
                 alt="Espacio sofisticado preparado para una experiencia de vino premium"
+                loading="lazy"
+                decoding="async"
               />
               <figcaption>Visual de espacio y puesta en escena para reforzar el tono premium del evento.</figcaption>
             </figure>
@@ -371,6 +392,8 @@
               <img
                 src="assets/images/wine-fashion-paz.png"
                 alt="Mujer en styling editorial sosteniendo una copa de vino en un viñedo al atardecer"
+                loading="lazy"
+                decoding="async"
               />
               <figcaption>Componente fashion para reforzar marca, aspiracionalidad y valor percibido.</figcaption>
             </figure>
